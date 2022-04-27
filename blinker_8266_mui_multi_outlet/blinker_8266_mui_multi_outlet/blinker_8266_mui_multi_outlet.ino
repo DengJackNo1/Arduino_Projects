@@ -16,11 +16,11 @@ char auth[] = "e5621a7be632";
 //这里是贝壳物联
 #include <aJSON.h>
 //=============  此处必须修该============
-String DEVICEID = "23079"; // 你的设备编号   ==
-String  APIKEY = "0b8673de4"; // 设备密码==
-String INPUTID = "21038";
-const char* ssid     = "baoli2303";//无线名称
-const char* password = "wwwhhh123";//无线密码
+String DEVICEID = "1"; // 你的设备编号   ==
+String  APIKEY = "1"; // 设备密码==
+String INPUTID = "21";
+const char* ssid     = "1";//无线名称
+const char* password = "1";//无线密码
 //=======================================
 unsigned long lastCheckInTime = 0; //记录上次报到时间
 unsigned long lastUpdateTime = 0; //记录上次更新数据时间

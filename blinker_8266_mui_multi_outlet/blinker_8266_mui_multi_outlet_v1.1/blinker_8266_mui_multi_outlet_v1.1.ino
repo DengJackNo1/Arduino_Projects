@@ -16,7 +16,7 @@ dht11 DHT;
 #define DHT11_PIN 4  //制定DHT11数据引脚
 
 
-char auth[] = "e5621a7be632";      //Blinker APP（连接小爱同学必须阿里云服务器）中获取到的Secret Key(密钥)
+char auth[] = "1";      //Blinker APP（连接小爱同学必须阿里云服务器）中获取到的Secret Key(密钥)
 //代码配网用这段
 //char ssid[] = "Your WIFI SSID";        //自己wifi名称
 //char pswd[] = "********";        //自己wifi密码
