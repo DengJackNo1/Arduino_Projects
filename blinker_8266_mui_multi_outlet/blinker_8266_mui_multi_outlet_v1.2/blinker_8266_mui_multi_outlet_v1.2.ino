@@ -10,10 +10,10 @@
 #include <PubSubClient.h>
 #include <ESP8266WiFi.h>
 
-#define mqtt_server "192.168.0.125"   // 设置的mqtt服务端地址（我这与HA的IP一样）
+#define mqtt_server "1"   // 设置的mqtt服务端地址（我这与HA的IP一样）
 // mqtt 用户名和密码  服务端设置那个
-#define mqtt_user "superdeng"
-#define mqtt_password "199443deng"
+#define mqtt_user "1"
+#define mqtt_password "1"
 //设置mqtt服务的发布主题,上传温湿度信息
 #define state_topic "office/sensor1"
 
@@ -28,7 +28,7 @@
 #define DHTPIN 4  //制定DHT11数据引脚
 DHTesp dht;
 
-char auth[] = "e5621a7be632";      //Blinker APP（连接小爱同学必须阿里云服务器）中获取到的Secret Key(密钥)
+char auth[] = "1";      //Blinker APP（连接小爱同学必须阿里云服务器）中获取到的Secret Key(密钥)
 //代码配网用这段
 //char ssid[] = "Your WIFI SSID";        //自己wifi名称
 //char pswd[] = "********";        //自己wifi密码
