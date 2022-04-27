@@ -1,0 +1,5 @@
+# Build and Release Folders
+
+# 忽略2进制固件 bin文件
+*.bin
+.vscode/
